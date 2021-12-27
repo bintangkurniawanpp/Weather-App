@@ -1,0 +1,20 @@
+{{> header }}
+
+    <h1>{{ title }}</h1>
+    <p>Created By {{ name }}</p>
+
+    {{>nav}}
+
+    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+        <input type="search" class="form-control form-control-dark" placeholder="Insert location..." aria-label="Search">
+        <br>
+        <p id="message-one"></p>
+        <p id="message-two"></p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button id="search-button" class="btn btn-primary" type="submit">Search</button>
+        </div>
+
+    </form>
+
+
+{{> footer }}
